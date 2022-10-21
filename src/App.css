@@ -1,0 +1,30 @@
+.dropAnim{
+  animation: drop 500ms ease;
+  /* transform: translateY(0px); */
+  opacity: 100;
+}
+
+@keyframes drop{
+  0%{
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 100;
+  }
+}
+
+.fadeIn{
+  animation: fade 500ms ease ;
+  opacity: 100;
+}
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100;
+    
+  }
+}
